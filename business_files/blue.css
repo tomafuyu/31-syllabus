@@ -1,0 +1,517 @@
+@charset "UTF-8";
+
+
+
+/*icon
+---------------------------------------------------------- */
+.c-icon-plus:before,
+.c-icon-plus:after {
+	background-color: #5073ba;
+}
+
+
+/*wrapper
+---------------------------------------------------------- */
+.c-wrapper {
+	background-color: #f2f6ff;
+}
+
+
+
+/*main-menu
+---------------------------------------------------------- */
+.c-main-menu-btn {
+	background-color: #5073ba;
+}
+
+
+
+
+/*gnav
+---------------------------------------------------------- */
+.c-gnav {
+	background-color: #5073ba;
+}
+
+li.c-gnav-item.c-gnav-children-dropdown.accordion.-pc-none.is-active > a {
+    background-color: #5073ba;
+}
+
+.c-gnav-children {
+	background-color: #103379;
+	box-shadow: 0 0 10px #103379;
+}
+
+.c-gnav-children-link {
+	border-bottom: 1px solid #5073BA;
+}
+
+
+
+@media(min-width: 561px) {
+	
+	.c-gnav::-webkit-scrollbar {
+        border-bottom: 1px solid #5073BA;
+    }
+
+	.c-gnav-link:hover,
+	.c-main-menu-btn:hover,
+	.c-gnav-dropdown.is-active {
+		background-color: #103379;
+	}
+
+	.c-gnav-children-link:hover {
+		background-color: #5073ba;
+	}
+	
+	.c-gnav-dropdown-content {
+        background-color: #103379;
+        border-left: 1px solid #5073BA; 
+    }
+	
+	.c-gnav-children-dropdown-content {
+        background-color: #103379;
+        border-left: 1px solid #5073BA; 
+    }
+
+}
+
+@media print, screen and (max-width: 560px) {
+
+	.c-gnav-item.is-active {
+		background-color: #103379;
+	}
+	
+	li.c-gnav-item.c-gnav-children-dropdown.accordion.-pc-none.is-active > a {
+		background-color: transparent;
+	}
+	
+	.c-gnav-link {
+		border-top: 1px solid #5073BA;
+	}
+	
+	.c-gnav-children-link {
+		border-top: 1px solid #5073BA;
+		border-bottom: none;
+	}
+	
+	.c-gnav-item .c-gnav-item .c-gnav-children .c-gnav-children-link {
+		border: none;	
+	}
+	
+	.c-table-line th {
+		border-left: solid #5073BA;
+		background-color: #ebf0fc;
+		margin-top: 10px;
+	}
+	
+	.c-search-list-table.-student-info-detail .c-search-list-table-title-container {
+		border-left: solid #5073BA;
+		background-color: #ebf0fc;
+	}
+}
+
+.c-fixed-heading-container {
+	background-color: #d5e0f7;
+}
+
+@media print, screen and (min-width: 561px) {
+	.c-heading-container.-all-over.pfarea {
+		border-left: 30px solid #d5e0f7;
+	}
+}
+
+@media print, screen and (max-width: 560px) {
+	.c-heading-container.-all-over.pfarea {
+		border-left: calc(30/ 560 * 100vw) solid #d5e0f7;
+	}
+}
+
+
+/*page-top
+---------------------------------------------------------- */
+.c-page-top-link {
+	border-color: #5073ba;
+}
+
+
+
+
+/*page-back
+---------------------------------------------------------- */
+.c-page-back-link {
+	background-color: #5073ba;
+}
+
+
+
+
+/*カラー
+---------------------------------------------------------- */
+.c-color-base {
+	color: #5073ba;
+}
+
+
+
+
+/*リンク
+---------------------------------------------------------- */
+.c-link {
+	color: #5073ba;
+}
+
+
+
+
+/*ボタン
+---------------------------------------------------------- */
+/* ボーダーありのボタン */
+.c-btn-line {
+	color: #5073ba;
+	border-color: #5073ba;
+}
+
+/* 検索ボタン（大） */
+.c-btn-search-large {
+	background-color: #5073ba;
+}
+
+/* 戻るボタン */
+.c-btn-prev {
+	background-color: #e7efff;
+	color: #264fa0;
+}
+
+/* 開閉ボタン */
+.c-btn-toggle {
+	border-color: #5073ba;
+	background-color: #e7efff;
+}
+
+.c-btn-toggle:before,
+.c-btn-toggle:after {
+	background-color: #264fa0;
+}
+
+/* ズームアップ */
+.c-btn-zoomup {
+	border-color: #5073ba;
+}
+
+/* 削除 */
+.c-btn-delete {
+	background-color: #5073ba;
+}
+
+/* 送信ボタン */
+.c-btn-submit01 {
+	color: #5073ba;
+	border-color: #5073ba;
+}
+
+div.c-heading-contents .c-btn.c-btn-submit01 {
+	background-color: #FFF;
+}
+
+.c-btn-submit01.active {
+	background-color: #0646c6;
+}
+
+.c-btn-submit01.active.disabled,
+.c-btn-submit01.active:disabled {
+	border-color: #afb7d7;
+	background-color: #afb7d7;
+}
+
+.c-category-item .c-btn.select {
+	background-color: #5073ba;
+	border: 1px solid #5073ba;
+}
+
+
+
+/*テーブル
+---------------------------------------------------------- */
+.pc .c-table.-tr-color tbody tr:not(.not-hover):hover {
+	background-color: #d5e0f7;
+}
+
+
+
+
+/*見出し
+---------------------------------------------------------- */
+.c-heading-container.-all-over {
+	background-color: #d5e0f7;
+}
+
+
+
+
+/*タブ
+---------------------------------------------------------- */
+.c-tab-list:after {
+	background-color: #5073ba;
+}
+
+.c-tab-button {
+	color: #5073ba;
+}
+
+.c-tab-item.is-active .c-tab-button,
+.pc .c-tab-button:hover {
+	border-color: #5073ba;
+	background-color: #5073ba;
+}
+
+
+
+
+/*ページネーション
+---------------------------------------------------------- */
+.pc .c-pagination .c-paginationList_item:not(.is-current)>a:hover {
+	background-color: #e7efff;
+	border-color: #5073ba;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.next:hover:not(.disabled),
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous:hover:not(.disabled) {
+	background: #e7efff!important;
+	border: #5073ba!important;
+	color: #333 !important;
+}
+
+
+
+
+/*選択ボタン
+---------------------------------------------------------- */
+.c-half-btn .is-active {
+	border-color: #5073ba;
+	background-color: #5073ba;
+}
+
+
+
+/*デザインテーマ
+---------------------------------------------------------- */
+.c-design-theme-image input[type="radio"]:checked + label:after {
+	border-color: #5073ba;
+}
+
+
+
+
+/*ポップアップメニュー
+---------------------------------------------------------- */
+.c-popup-menu {
+	background-color: #5073ba;
+}
+
+.c-popup-menu-dropdown-content {
+	background-color: #103379;
+}
+
+.c-popup-menu-children {
+	background-color:#103379;
+}
+
+
+@media print, screen and (min-width: 561px) {
+
+	.c-popup-menu-link:hover,
+	.c-popup-menu-item.is-open .c-popup-menu-link {
+		background-color: #103379;
+	}
+
+	.c-popup-menu-children-link:hover {
+		background-color: #5073ba;
+	}
+
+	li.c-gnav-item.c-gnav-children-dropdown.is-active ul {
+	    background: #10335D;
+	}
+
+}
+
+
+
+
+/*パネル
+---------------------------------------------------------- */
+@media print, screen and (min-width: 561px) {
+
+	.c-panel-menu-item a:hover {
+		background-color: #5073ba;
+	}
+
+}
+
+
+
+
+/*progress-graph
+----------------------------------------*/
+.js-progress-graph.is-active .js-progress-graph-bar {
+	background-color: #5073ba;
+}
+
+@media print, screen and (max-width: 560px) {
+	.js-progress-graph.is-active .js-progress-graph-bar {
+		background-color: transparent;
+	}
+}
+
+
+/* ダイアログ
+------------------------------------------------------------*/
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-dialog-buttons {
+    border: 1px solid #5073ba;
+}
+
+.ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix {
+    background-color: #5073ba;
+}
+
+.ui-dialog-buttonset button {
+    border-color: #5073ba;
+}
+
+.ui-dialog-buttonset button.dialog-btn-cancel {
+    color: #5073ba;
+}
+
+.ui-dialog-buttonset button.dialog-btn-ok {
+    background-color: #5073ba;
+}
+
+.ui-button:active {
+    border-color: #5073ba;
+}
+
+.ui-button:hover, .ui-button:focus {
+    border-color: #5073ba;
+}
+
+
+
+/*トップページ
+---------------------------------------------------------- */
+.index-schedule .today .content,
+.index-schedule .calender_week .content:focus {
+	background-color: #d5e0f7;
+}
+
+
+
+
+/*履修登録・成績：一般・集中講義ページ
+---------------------------------------------------------- */
+.stady-sec02 .stady-sec02-header {
+	background-color: #e1e8f8;
+}
+
+
+
+
+/*授業参考情報一覧
+---------------------------------------------------------- */
+.c-bulletin-board-title.js-accordion:before,
+.c-bulletin-board-title.js-accordion:after {
+	background-color: #5073ba;
+}
+
+/* Dropup Button */
+.dropbtn {
+	background-color: #5073ba;
+}
+
+/*チェックボックス、ラジオボタン（カラー）
+---------------------------------------------------------- */
+.c-form-box .checkbox input:checked+span,
+.c-input-radio input[type=radio]:checked+.box {
+    background-color: #d5e0f7;
+    border-color: #5073ba;
+}
+
+.c-form-box .checkbox input:checked+span:before,
+.c-input-radio input[type=radio]:checked+.box::before {
+    border-color: #5073ba;
+}
+
+.c-form-box .checkbox input:checked+span:after {
+    border-left: 4px solid #5073ba;
+    border-bottom: 4px solid #5073ba;
+}
+
+.c-input-radio .box::after {
+    background-color: #5073ba;
+}
+
+/*スケジュール（カラー）
+---------------------------------------------------------- */
+.c-paginationList_item.is-current.c-heading-h3 > div {
+    border: 1px solid #5073ba;
+}
+
+/*ページネーション（カラー）
+---------------------------------------------------------- */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+	background: #5073ba!important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover:not(.current):not(.next):not(.previous) {
+	background: #d5e0f7;
+}
+
+/*履修登録
+---------------------------------------------------------- */
+.unit-table .header-unit {
+	background-color: #d5e0f7;
+}
+
+.unit-table .sub-header {
+	background-color: #d5e0f7;
+}
+
+.unit-table .limit-unit-value {
+	background-color: #f2f6ff;
+}
+
+.unit-table .limit-unit-value-hyphen {
+	background-color: #f2f6ff;
+}
+
+@media print, screen and (max-width: 560px) {
+    /*スケジュール（カラー）
+    ---------------------------------------------------------- */
+    .index-schedule .scheduleList {
+        background-color: #d5e0f7;
+    }
+    
+    /*ホーム画面背景
+    ---------------------------------------------------------- */
+    .index-main-visual .sp_box {
+        background-image: linear-gradient(0deg, #fff 10px, #f2f6ff 10px, #f2f6ff 20px, #fff 20px, #fff 30px, #f2f6ff 30px, #f2f6ff);
+    }
+}
+
+
+
+
+/*履修登録 シラバスアイコン
+---------------------------------------------------------- */
+.syllabuscolor {
+	vertical-align: -6px;
+	width: 22px;
+	height: 22px;
+	color: #5073ba;
+}
+
+.syllabuscolor2 {
+	vertical-align: -6px;
+	width: 22px;
+	height: 22px;
+	color: #5073ba;
+}
