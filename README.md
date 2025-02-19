@@ -2,29 +2,30 @@
 
 ## 教養・共通
 
-* [情報学方法論(1)](./method.html)
+* [情報学方法論(1)](./method.pdf)
 
 ## 必修
 
-* [情報科学実験A](./a.html)
-* [計算機アーキテクチャⅡ](./arch.html)
-* [機械語と計算機械](./mach.html)
-* [オペレーティングシステム](./os.html)
+* [情報科学実験A](./a.pdf)
+* [計算機アーキテクチャⅡ](./arch.pdf)
+* [機械語と計算機械](./machine.pdf)
+* [オペレーティングシステム](./os.pdf)
 
 ## 選択必修
 
-* [ネットワークプログラミング](./net.html)
-* [機械学習](./ai.html)
+* [ネットワークプログラミング](./net.pdf)
+* [機械学習](./ai.pdf)
 
 ## 選択
 
-* [インターンシップCS-A](./cs-a.html)
-* [インターンシップCS-B](./cs-b.html)
-* [創造的プログラミング](./creative.html)
-* [記号処理](./symb.html)
-* [経営管理](./business.html)
-* [パターン認識](./pattern.html)
-* [システム要求分析設計](./system.html)
-* [人間情報活用論](./human.html)
-* [ソフトウェア品質管理](./soft.html)
-* [Basic SecCap 演習(1)](./basic.html)
+* [インターンシップCS-A](./cs-a.pdf)
+* [インターンシップCS-B](./cs-b.pdf)
+* [創造的プログラミング](./creative.pdf)
+* [記号処理](./symbolic.pdf)
+* [経営管理](./business.pdf)
+* [パターン認識](./pattern.pdf)
+* [システム要求分析設計](./system.pdf)
+* [人間情報活用論](./human.pdf)
+* [ソフトウェア品質管理](./soft.pdf)
+* [Basic SecCap 演習(1)](./basic.pdf)
+
