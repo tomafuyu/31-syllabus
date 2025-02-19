@@ -26,6 +26,6 @@
 * [パターン認識](./pattern.pdf)
 * [システム要求分析設計](./system.pdf)
 * [人間情報活用論](./human.pdf)
-* [ソフトウェア品質管理](./soft.pdf)
+* [ソフトウェア品質管理](./software.pdf)
 * [Basic SecCap 演習(1)](./basic.pdf)
 
